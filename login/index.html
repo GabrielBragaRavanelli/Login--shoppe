@@ -1,129 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shopee | Entrar</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-    <a href="#" class="logo">
-        <img src="img/cupom-de-desconto-shopee.jpg" alt="Shopee">
-    </a>
-
-    <nav>
-        <a href="#">Precisa de ajuda?</a>
-    </nav>
-</header>
-
-<main class="container">
-
-    <section class="banner">
-        <img src="img/unnamed.png" alt="Dia do consumidor">
-        <h1>15.3 Dia do consumidor</h1>
-    </section>
-
-    <section class="login">
-        <h1>Entrar</h1>
-
-        <form>
-            <div class="input-box">
-                <input name="usuario"
-                       type="text"
-                       placeholder="Número de telefone / Nome de usuário / Email"
-                       required>
-            </div>
-            <div class="input-box">
-                <input name="senha"
-                       type="password"
-                       placeholder="Senha"
-                       required>
-            </div>
-
-            <div class="button-entrar">
-                <button type="submit">Entrar</button>
-            </div>
-
-            <div class="remember-forgot">
-                <a class="forgot" href="#">Esqueci minha senha</a>
-                <a class="forgot" href="#">Fazer login com SMS</a>
-            </div>
-
-            <div class="social-sep"><span>OU</span></div>
-
-            <div class="icon">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-google"></i>
-            </div>
-
-            <div class="cadastro">
-                Novo na Shopee? <a href="#"><strong>Cadastrar</strong></a>
-            </div>
-        </form>
-    </section>
-</main>
-<footer class="footer">
-    <div class="rodape">
-        <h3>ATENDIMENTO AO CLIENTE</h3>
-        <a href="#">Central de ajuda</a>
-        <a href="#">Como Comprar</a>
-        <a href="#">Métodos de Pagamento</a>
-        <a href="#">Garantia Shopee</a>
-        <a href="#">Devolução e reembolso</a>
-        <a href="#">Fale Conosco</a>
-        <a href="#">Ouvidoria</a>
-        <a href="#">Preferências de Cookies</a>
-    </div>
-
-    <div class="rodape">
-        <h3>SOBRE A SHOPEE</h3>
-        <a href="#">Sobre Nós</a>
-        <a href="#">Políticas</a>
-        <a href="#">Política de Privacidade da Shopee</a>
-        <a href="#">Programa de Afiliados da Shopee</a>
-        <a href="#">Seja um Motorista Parceiro da Shopee</a>
-        <a href="#">Oferta Relâmpago</a>
-        <a href="#">Shopee blog</a>
-        <a href="#">Imprensa</a>
-    </div>
-
-    <div class="rodape">
-        <h3>PAGAMENTOS</h3>
-        <div class="icon-pagamentos">
-            <i class="fa-brands fa-cc-visa"></i>
-            <i class="fa-brands fa-cc-mastercard"></i>
-            <i class="fa-brands fa-pix"></i>
+    <header class="topbar">
+        <div class="wrapper topbar-inner">
+            <a href="#" class="brand" aria-label="Pagina inicial Shopee">
+                <span class="brand-icon"><i class="fa-solid fa-bag-shopping"></i></span>
+                <span class="brand-text">Shopee</span>
+                <span class="brand-divider">Entrar</span>
+            </a>
+            <a class="help-link" href="#">Precisa de ajuda?</a>
         </div>
-    </div>
-    <div class="rodape">
-        <h3>SIGA-NOS</h3>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-tiktok"></i>
-        <i class="fa-brands fa-whatsapp"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-linkedin"></i>
-    </div>
+    </header>
 
-    <div class="direitos">
-        <p>© 2026 Shopee. Todos os direitos reservados</p>
-    </div>
+    <main>
+        <section class="hero">
+            <div class="wrapper hero-inner">
+                <div class="promo" aria-hidden="true">
+                    <img src="img/unnamed.png" alt="">
+                </div>
 
-    <div class="pais">
-        <a href="#">Argentina</a>
-        <a href="#">Singapura</a>
-        <a href="#">Indonésia</a>
-        <a href="#">Tailândia</a>
-        <a href="#">Malásia</a>
-        <a href="#">Vietnã</a>
-        <a href="#">Filipinas</a>
-        <a href="#">Brasil</a>
-        <a href="#">México</a>
-        <a href="#">Taiwan</a>
-    </div>
-</footer>
-  
-    
-</body>  
+                <section class="login-card" aria-label="Formulario de login">
+                    <h1>Entrar</h1>
+                    <form>
+                        <input name="usuario" type="text" placeholder="Numero de telefone/Nome do usuario/Email" required>
+                        <input name="senha" type="password" placeholder="Senha" required>
+
+                        <button type="submit">ENTRAR</button>
+
+                        <div class="links-row">
+                            <a href="#">Esqueci minha senha</a>
+                            <a href="#">Fazer login com SMS</a>
+                        </div>
+
+                        <div class="separator">OU</div>
+
+                        <div class="social-buttons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                            <a href="#"><i class="fa-brands fa-google"></i> Google</a>
+                        </div>
+
+                        <p class="register">Novo na Shopee? <a href="#">Cadastrar</a></p>
+                    </form>
+                </section>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="wrapper footer-grid">
+            <div>
+                <h3>ATENDIMENTO AO CLIENTE</h3>
+                <a href="#">Central de Ajuda</a>
+                <a href="#">Como Comprar</a>
+                <a href="#">Metodos de Pagamento</a>
+                <a href="#">Garantia Shopee</a>
+                <a href="#">Devolucao e Reembolso</a>
+                <a href="#">Fale Conosco</a>
+                <a href="#">Ouvidoria</a>
+                <a href="#">Preferencias de Cookies</a>
+            </div>
+
+            <div>
+                <h3>SOBRE A SHOPEE</h3>
+                <a href="#">Sobre Nos</a>
+                <a href="#">Politicas Shopee</a>
+                <a href="#">Politica de Privacidade</a>
+                <a href="#">Programa de Afiliados</a>
+                <a href="#">Seja Parceiro Shopee</a>
+                <a href="#">Ofertas Relampago</a>
+                <a href="#">Shopee Blog</a>
+                <a href="#">Imprensa</a>
+            </div>
+
+            <div>
+                <h3>PAGAMENTO</h3>
+                <div class="payment-grid">
+                    <span>VISA</span>
+                    <span>Master</span>
+                    <span>Elo</span>
+                    <span>Amex</span>
+                    <span>Boleto</span>
+                    <span>PIX</span>
+                </div>
+            </div>
+
+            <div>
+                <h3>SIGA-NOS</h3>
+                <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i> TikTok</a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                <a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+            </div>
+
+            <div>
+                <h3>BAIXAR APP SHOPEE</h3>
+                <div class="app-boxes">
+                    <div class="qr-box">QR</div>
+                    <div class="store-links">
+                        <span>App Store</span>
+                        <span>Google Play</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="wrapper footer-bottom">
+            <p>&copy; 2026 Shopee. Todos os direitos reservados</p>
+            <p>Pais e regiao: Argentina | Singapura | Indonesia | Tailandia | Malasia | Vietna | Filipinas | Brasil | Mexico | Taiwan</p>
+        </div>
+    </footer>
+</body>
 </html>
